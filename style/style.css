@@ -22,53 +22,54 @@ font-family: 'Share', sans-serif;
 }
 
 .wrapper {
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
-/* header styling home page */
+/* header styling home page/booking page/facilites page */
 
-.header {
+.homepageheader {
     text-align: center;
     background-color: rgb(0, 0, 0);
     height: 7rem;
     color: #ffffff
 }
 
-.header__title {
+.homepageheader__title {
     font-size: 5rem;
     font-family: 'Josefin Slab', serif;
 }
 
-.header__slogan {
+.homepageheader__slogan {
     font-family: 'Josefin Slab', serif;
     font-size: 2rem;
 }
 
 /* main styling home page*/
 
-.main__logo {
-    margin-top: 5rem;
-    width: 300px;
-    height: auto;
-    box-shadow: 2px 2px 2px 3px black;
-}
 
-.main {
+
+.homepagemain {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url(../assets/photos/09-day.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     width: auto;
-
 }
 
-.main__title {
+.homepagemain__logo {
+    margin-top: 5rem;
+    width: 300px;
+    height: auto;
+    box-shadow: 2px 2px 2px 3px black;
+}
+
+.homepagemain__title {
     margin-top: 10rem;
     text-align: center;
-    color: #ffffff;
+    color: #c9c8c8;
     font-family: 'Josefin Slab', serif;
     font-weight: 700;
     font-size: 5rem;
@@ -76,14 +77,61 @@ font-family: 'Share', sans-serif;
     text-shadow: 4px 0px 6px black;
 }
 
-.main__title:hover {
+.homepagemain__title:hover {
     color: black;
     transition: 0.7s;
 }
 
 /* footer styling home page */
 
-.footer {
+.homepagefooter {
     background-color: black;
     height: 100px;
+}
+
+
+
+/* nav styling booking page */
+
+.bookingnav {
+    display: flex;
+    justify-content: center;
+}
+
+.bookingnav__link-btn {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.bookingnav__link-btn:hover {
+    background-color: rgb(162, 235, 162);
+    transition: 0.7s;
+}
+
+/* main styling booking page */
+
+.bookingmain {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.bookingmain__booking-information {
+    margin-top: 1rem;
+    background-color: rebeccapurple;
+    height: 300px;
+}
+.bookingmain__container {
+    
+    height: auto;
+}
+
+.bookingmain__container-image {
+    height: 300px;
+    width: 300px;
 }
