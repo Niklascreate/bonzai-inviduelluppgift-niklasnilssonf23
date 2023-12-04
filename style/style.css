@@ -94,15 +94,23 @@ font-family: 'Share', sans-serif;
 /* nav styling booking page */
 
 .bookingnav {
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
-}
-
-.bookingnav__link-btn {
+    justify-content: space-evenly;
+    height: 50px;
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 2rem;
+}
+
+.bookingnav__link {
+    color: black;
+    text-decoration: none;
+}
+
+/*
+.bookingnav__link-btn {
     border-radius: 50%;
     width: 140px;
     height: 100px;
@@ -113,25 +121,59 @@ font-family: 'Share', sans-serif;
     background-color: rgb(162, 235, 162);
     transition: 0.7s;
 }
+*/
 
 /* main styling booking page */
 
-.bookingmain {
+
+.bookingmain__booking-information {
+    grid-column: 1 / span 3;
+}
+
+.bookingmain {}
+
+.bookingmain__container {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 5rem;
+}
+
+.bookingmain__booking-text {
+    width: 300px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 1px;
+}
+
+.bookingmain__booking-text--style {
+    margin-top: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 3px;
+}
+
+.bookingmain__booking-text--btn {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0.5rem;
 }
 
 .bookingmain__booking-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 1rem;
-    background-color: rebeccapurple;
     height: 300px;
-}
-.bookingmain__container {
-    
-    height: auto;
 }
 
+
 .bookingmain__container-image {
+    align-self: center;
+    margin-top: 1rem;
     height: 300px;
-    width: 300px;
+    width: auto;
+    box-shadow: 6px 6px 6px 0.20px black;
 }
