@@ -80,7 +80,7 @@ font-family: 'Share', sans-serif;
 
 /* footer styling home page */
 
-.homepagefooter {
+.footer {
     background-color: black;
     height: 100px;
 }
@@ -107,16 +107,12 @@ font-family: 'Share', sans-serif;
 }
 
 .bookingnav__link:hover {
-    color: rgb(119, 120, 119);
+    color: rgb(213, 242, 213);
 }
+
 
 
 /* main styling booking page */
-
-
-.bookingmain__booking-information {
-    grid-column: 1 / span 3;
-}
 
 
 .bookingmain__container {
@@ -124,27 +120,63 @@ font-family: 'Share', sans-serif;
     grid-template-columns: repeat(3, 1fr);
 }
 
+.bookingmain__booking-information {
+    grid-column: 1 / span 3;
+}
+
+.bookingmain__booking-title {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline;
+}
+
 .bookingmain__booking-text {
     width: 300px;
     border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.bookingmain__booking-date {
+    margin-bottom: 3rem;
+}
+
+.bookingmain__booking-text--btn {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 220px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 4rem;
+    background-color: rgb(213, 242, 213);
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0.20px black;
+}
+
+
+.bookingmain__booking-text--datestyle {
+    margin-top: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 20px;
     padding: 3px;
-    margin-bottom: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0.20px black;
 }
 
 .bookingmain__booking-text--style {
-    margin-top: 2rem;
+    margin-bottom: 1rem;
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     font-size: 36px;
     padding: 3px;
 }
 
-.bookingmain__booking-text--btn {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 600;
-    font-size: 18px;
-    margin-top: 0.5rem;
-}
 
 .bookingmain__booking-information {
     display: flex;
@@ -166,6 +198,14 @@ font-family: 'Share', sans-serif;
     height: 300px;
     width: auto;
     box-shadow: 6px 6px 6px 0.20px black;
+}
+
+.bookingmain__image-text {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
 }
 
 
@@ -203,40 +243,18 @@ font-family: 'Share', sans-serif;
     box-shadow: 2px 2px 2px;
 }
 
-.facilitiesnav {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
-    height: 50px;
-    font-family: 'Josefin Slab', serif;
-    font-weight: 600;
-    font-size: 30px;
-    margin-top: 2rem;
-}
-
-
-.facilitiesnav {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
-    height: 50px;
-    font-family: 'Josefin Slab', serif;
-    font-weight: 600;
-    font-size: 30px;
-    margin-top: 2rem;
-}
-
-.facilitiesnav__link {
-    color: black;
-    text-decoration: none;
-}
-
 .facilitiesnav__link:hover {
-    color: rgb(119, 120, 119);
+    color: rgb(213, 242, 213);
 }
 
 .facilites__title {
     font-size: 32px;
+    margin-left: 0.5rem;
+}
+
+.facilites__list-container {
+    margin-left: 1.5rem;
+    line-height: 1.5;
 }
 
 /* About us styling */
@@ -258,7 +276,7 @@ font-family: 'Share', sans-serif;
 }
 
 .aboutnav__link:hover {
-    color: rgb(119, 120, 119);
+    color: rgb(213, 242, 213);
 }
 
 .aboutmain {
@@ -271,12 +289,20 @@ font-family: 'Share', sans-serif;
     background-color: rgb(213, 242, 213);
     align-self: center;
     width: 500px;
-    height: 400px;
+    height: 600px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 2px 2px 2px;
 }
 
 .about__title {
+    margin-left: 0.5rem;
     font-size: 32px;
+}
+
+.about__text {
+    font-style: italic;
+    line-height: 1.5;
+    margin-left: 0.5rem;
+    
 }
