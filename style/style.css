@@ -98,6 +98,7 @@ font-family: 'Share', sans-serif;
     font-weight: 600;
     font-size: 30px;
     margin-top: 2rem;
+    max-width: 100%;
     
 }
 
@@ -306,3 +307,106 @@ font-family: 'Share', sans-serif;
     margin-left: 0.5rem;
     
 }
+
+/* Media query */
+
+@media screen and (max-width: 400px) {
+
+    .header {
+        max-width: 100%;
+    }
+
+    .header__slogan {
+        font-size: 20px;
+    }
+
+    .homepagemain {
+        background-image: url("/assets/photos/09-day.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    
+    .homepagemain__title {
+        color: black;
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .bookingmain {
+        flex-direction: column;
+    }
+
+
+    .bookingnav {
+        max-width: 100%;
+        margin-bottom: 8rem;
+    }
+    
+    .bookingmain__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .bookingmain__booking-title {
+        font-size: 14px;
+    }
+
+    .bookingmain__booking-information {
+        flex-direction: column;
+    }
+
+    .bookingmain__booking-date {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .bookingmain__booking-text, .bookingmain__booking-text--datestyle {
+        width: 150px;
+   }
+
+   .bookingmain__booking-text--datestyle {
+        margin-left: 1rem;
+        margin: 0;
+        margin-bottom: 1rem;
+        
+   }
+
+   .bookingmain__booking-text--btn {
+        margin-top: 2rem;
+        font-size: 14px;
+        width: 150px;
+        margin: 0;
+   }
+
+   .bookingmain__booking-text--style {
+        font-size: 20px;
+        margin-bottom: 8rem;
+        margin-right: 1rem;
+   }
+
+   .bookingmain__container-image, .bookingmain__room-container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0;
+        max-width: 100%;
+        height: auto;
+   }
+
+    .facilites__title, .about__title {
+        font-size: 26px;
+    }
+
+    .facilities__container, .about__container {
+        max-width: 100%;
+    }
+
+   .facilites__list-container, .about__text {
+        font-size: 16px;
+   }
+
+    }
