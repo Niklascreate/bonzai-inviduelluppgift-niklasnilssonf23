@@ -44,7 +44,7 @@ font-family: 'Share', sans-serif;
 
 
 
-.homepagemain {
+.homepage-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,14 +55,14 @@ font-family: 'Share', sans-serif;
     width: auto;
 }
 
-.homepagemain__logo {
+.homepage-main__logo {
     margin-top: 5rem;
     width: 300px;
     height: auto;
     box-shadow: 2px 2px 2px 3px black;
 }
 
-.homepagemain__title {
+.homepage-main__title {
     margin-top: 10rem;
     text-align: center;
     color: #c9c8c8;
@@ -73,7 +73,7 @@ font-family: 'Share', sans-serif;
     text-shadow: 4px 0px 6px black;
 }
 
-.homepagemain__title:hover {
+.homepage-main__title:hover {
     color: black;
     transition: 0.7s;
 }
@@ -89,7 +89,7 @@ font-family: 'Share', sans-serif;
 
 /* nav styling booking page */
 
-.bookingnav {
+.booking-nav {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
@@ -102,12 +102,12 @@ font-family: 'Share', sans-serif;
     
 }
 
-.bookingnav__link {
+.booking-nav__link {
     color: black;
     text-decoration: none;
 }
 
-.bookingnav__link:hover {
+.booking-nav__link:hover {
     color: rgb(213, 242, 213);
 }
 
@@ -116,16 +116,16 @@ font-family: 'Share', sans-serif;
 /* main styling booking page */
 
 
-.bookingmain__container {
+.booking-main__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.bookingmain__booking-information {
+.booking-main__booking-information {
     grid-column: 1 / span 3;
 }
 
-.bookingmain__booking-title {
+.booking-main__booking-title {
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     font-size: 20px;
@@ -133,7 +133,7 @@ font-family: 'Share', sans-serif;
     text-decoration: underline;
 }
 
-.bookingmain__booking-text {
+.booking-main__booking-text {
     width: 300px;
     border-radius: 10px;
     padding: 5px;
@@ -141,11 +141,11 @@ font-family: 'Share', sans-serif;
     cursor: pointer;
 }
 
-.bookingmain__booking-date {
+.booking-main__booking-date {
     margin-bottom: 3rem;
 }
 
-.bookingmain__booking-text--btn {
+.booking-main__booking-text--btn {
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     font-size: 20px;
@@ -159,7 +159,7 @@ font-family: 'Share', sans-serif;
 }
 
 
-.bookingmain__booking-text--datestyle {
+.booking-main__booking-text--datestyle {
     margin-top: 2rem;
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
@@ -170,7 +170,7 @@ font-family: 'Share', sans-serif;
     box-shadow: 2px 2px 2px 0.20px black;
 }
 
-.bookingmain__booking-text--style {
+.booking-main__booking-text--style {
     margin-bottom: 1rem;
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
@@ -179,7 +179,7 @@ font-family: 'Share', sans-serif;
 }
 
 
-.bookingmain__booking-information {
+.booking-main__booking-information {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,12 +188,12 @@ font-family: 'Share', sans-serif;
     height: 300px;
 }
 
-.bookingmain__room-container {
+.booking-main__room-container {
     margin-left: 2.5rem;
 }
 
 
-.bookingmain__container-image {
+.booking-main__container-image {
     align-self: center;
     margin-top: 1rem;
     height: 300px;
@@ -201,7 +201,7 @@ font-family: 'Share', sans-serif;
     box-shadow: 6px 6px 6px 0.20px black;
 }
 
-.bookingmain__image-text {
+.booking-main__image-text {
     text-align: center;
     font-family: 'Josefin Slab', serif;
     font-size: 18px;
@@ -212,7 +212,7 @@ font-family: 'Share', sans-serif;
 
 /* Facilitypage styling */
 
-.facilitiesnav {
+.facilities-nav {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
@@ -223,17 +223,17 @@ font-family: 'Share', sans-serif;
     margin-top: 2rem;
 }
 
-.facilitiesnav__link {
+.facilities-nav__link {
     color: black;
     text-decoration: none;
 }
 
-.facilitiesmain {
+.facilities-main {
     display: flex;
     justify-content: center;
 }
 
-.facilities__container {
+.facilities-main__container {
     background-color: rgb(213, 242, 213);
     justify-content: center;
     flex-direction: column;
@@ -244,23 +244,23 @@ font-family: 'Share', sans-serif;
     box-shadow: 2px 2px 2px;
 }
 
-.facilitiesnav__link:hover {
+.facilities-nav__link:hover {
     color: rgb(213, 242, 213);
 }
 
-.facilites__title {
+.facilities-main__title {
     font-size: 32px;
     margin-left: 0.5rem;
 }
 
-.facilites__list-container {
+.facilities-main__list-container {
     margin-left: 1.5rem;
     line-height: 1.5;
 }
 
 /* About us styling */
 
-.aboutnav {
+.about-nav {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
@@ -271,22 +271,22 @@ font-family: 'Share', sans-serif;
     margin-top: 2rem;
 }
 
-.aboutnav__link {
+.about-nav__link {
     color: black;
     text-decoration: none;
 }
 
-.aboutnav__link:hover {
+.about-nav__link:hover {
     color: rgb(213, 242, 213);
 }
 
-.aboutmain {
+.about-main {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.about__container {
+.about-main__container {
     background-color: rgb(213, 242, 213);
     align-self: center;
     width: 500px;
@@ -296,12 +296,12 @@ font-family: 'Share', sans-serif;
     box-shadow: 2px 2px 2px;
 }
 
-.about__title {
+.about-main__title {
     margin-left: 0.5rem;
     font-size: 32px;
 }
 
-.about__text {
+.about-main__text {
     font-style: italic;
     line-height: 1.5;
     margin-left: 0.5rem;
@@ -320,7 +320,7 @@ font-family: 'Share', sans-serif;
         font-size: 20px;
     }
 
-    .homepagemain {
+    .homepage-main {
         background-image: url("/assets/photos/09-day.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -328,68 +328,68 @@ font-family: 'Share', sans-serif;
     }
 
     
-    .homepagemain__title {
+    .homepage-main__title {
         color: black;
         font-size: 40px;
         line-height: 1;
     }
 
-    .bookingmain {
+    .booking-main {
         flex-direction: column;
     }
 
 
-    .bookingnav {
+    .booking-nav {
         max-width: 100%;
         margin-bottom: 8rem;
     }
     
-    .bookingmain__container {
+    .booking-main__container {
         display: flex;
         flex-direction: column;
         max-width: 100%;
     }
 
-    .bookingmain__booking-title {
+    .booking-main__booking-title {
         font-size: 14px;
     }
 
-    .bookingmain__booking-information {
+    .booking-main__booking-information {
         flex-direction: column;
     }
 
-    .bookingmain__booking-date {
+    .booking-main__booking-date {
         display: flex;
         justify-content: center;
         flex-direction: column;
         font-size: 20px;
     }
 
-    .bookingmain__booking-text, .bookingmain__booking-text--datestyle {
+    .booking-main__booking-text, .booking-main__booking-text--datestyle {
         width: 150px;
    }
 
-   .bookingmain__booking-text--datestyle {
+   .booking-main__booking-text--datestyle {
         margin-left: 1rem;
         margin: 0;
         margin-bottom: 1rem;
         
    }
 
-   .bookingmain__booking-text--btn {
+   .booking-main__booking-text--btn {
         margin-top: 2rem;
         font-size: 14px;
         width: 150px;
         margin: 0;
    }
 
-   .bookingmain__booking-text--style {
+   .booking-main__booking-text--style {
         font-size: 20px;
         margin-bottom: 8rem;
         margin-right: 1rem;
    }
 
-   .bookingmain__container-image, .bookingmain__room-container {
+   .booking-main__container-image, .booking-main__room-container {
         flex-direction: column;
         justify-content: space-evenly;
         margin: 0;
@@ -397,15 +397,15 @@ font-family: 'Share', sans-serif;
         height: auto;
    }
 
-    .facilites__title, .about__title {
+    .facilities-main__title, .about-main__title {
         font-size: 26px;
     }
 
-    .facilities__container, .about__container {
+    .facilities-main__container, .about-main__container {
         max-width: 100%;
     }
 
-   .facilites__list-container, .about__text {
+   .facilities-main__list-container, .about-main__text {
         font-size: 16px;
    }
 
